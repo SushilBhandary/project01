@@ -1,0 +1,126 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav:first-child{
+    z-index: 2;
+}
+.container{
+    padding: 20px;
+    font-family: 'Poppins', serif;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 25px;
+
+}
+
+.list-item{
+    padding: 10px;
+    margin: 0 15px;
+}
+
+.list-item:first-child{
+    font-weight: bold;  
+    text-decoration: underline;
+}
+
+.button-group{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-button{
+    padding: 7px;
+    width: 130px;
+    border-radius: 10px;
+    border: 3px solid;
+    margin-left: 10px;
+
+}
+
+.hero-container{
+    position: relative;
+}
+.square{
+    position: relative;
+    z-index: -1;
+    top: 460px;
+    right: -210px;
+}
+
+.star{
+    position: absolute;
+    right: 10px;
+    top:100px;
+    
+}
+
+.globe{
+    position: relative;
+    left: 350px;
+    top: -270px;
+}
+
+.hero-container>div>img{
+    position: relative;
+    top: -300px;
+}
+
+.hero-container-right{
+    position: absolute;
+    right: 0;
+    width: 800px;
+    bottom: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-heading{
+    font-size: 60px;
+    text-align: center;
+    width: 100%;
+}
+
+.hero-description{
+    position: relative;
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.button-email{
+    background-color: #ffffff;
+    color: #1d1d1d;
+    padding: 5px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+.button-join{
+    background-color: #1d1d1d;
+    color: #ffffff;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+    border: 4px solid;
+}
+
+.contact-heading{
+    margin-top: 90px;
+    text-align: center;
+}
