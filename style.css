@@ -124,3 +124,141 @@ nav:first-child{
     margin-top: 90px;
     text-align: center;
 }
+
+
+@media screen and  (min-width: 1290px) and (max-width: 1335px) {
+    .hero-heading{
+        font-size: 50px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and  (min-width: 1111px) and (max-width: 1290px) {
+    .hero-heading{
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+    .hero-description{
+        position: relative;
+        width: 500px;
+        text-align: center;
+        padding: 20px;
+        margin: 10px 0;
+    }
+    .hero-container-right{
+        position: absolute;
+        right: 0;
+        width: 550px;
+        bottom: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media screen and  (min-width: 960px) and (max-width: 1111px) {
+    .hero-heading{
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+    .hero-description{
+        position: relative;
+        width: 390px;
+        text-align: center;
+        padding: 20px;
+        margin: 10px 0;
+    }
+    .hero-container-right{
+        position: absolute;
+        right: 0;
+        width: 390px;
+        bottom: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+@media screen and  (min-width: 860px)  and (max-width: 960px) {
+    .hero-heading{
+        font-size: 60px;
+        text-align: center;
+        width: 100%;
+    }
+    .hero-description{
+        position: relative;
+        width: auto;
+        text-align: center;
+        padding: 20px;
+        margin: 10px 0;
+    }
+    .hero-container-right{
+        position: absolute;
+        left: 20px;
+        width: auto;
+        top: 950px;
+        bottom: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .star{
+        display: none;
+    }
+    
+    .globe{
+        display: none;
+    }
+    .navbar-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media screen  and (max-width: 860px) {
+    .hero-heading{
+        font-size: 60px;
+        text-align: center;
+        width: 100%;
+    }
+    .hero-description{
+        position: relative;
+        width: auto;
+        text-align: center;
+        padding: 20px;
+        margin: 10px 0;
+    }
+    .hero-container-right{
+        position: absolute;
+        left: 20px;
+        width: auto;
+        top: 950px;
+        bottom: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .star{
+        display: none;
+    }
+    
+    .globe{
+        display: none;
+    }
+    .navbar-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container{
+        padding: 5px;
+    }
+}
